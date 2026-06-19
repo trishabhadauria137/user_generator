@@ -17,7 +17,7 @@ const Randomuser = () => {
       setUser(response.data.results[0])
       setLoading(false)
     } catch (error) {
-      setError(true)
+      setError(true)   
       setLoading(false)
     }
   }
